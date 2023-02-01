@@ -39,12 +39,12 @@ function cars(arrInput) {
     }
 }
 
-cars(['create pesho',
-    'create gosho inherit pesho',
-    'create stamat inherit gosho',
-    'set pesho rank number1',
-    'set gosho nick goshko',
-    'print stamat']); // nick:goshko,rank:number1\n
+//cars(['create pesho',
+ //   'create gosho inherit pesho',
+ //   'create stamat inherit gosho',
+  //  'set pesho rank number1',
+  //  'set gosho nick goshko',
+  //  'print stamat']); // nick:goshko,rank:number1\n
 
 cars(['create c1',
      'create c2 inherit c1',
