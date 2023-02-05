@@ -15,6 +15,7 @@ class Point {
         const dist = Math.sqrt(x ** 2 + y ** 2);
         return dist
     }
+    
 
 }
 
