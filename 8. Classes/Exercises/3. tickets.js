@@ -14,6 +14,7 @@ function tickets(array, sorting) {
         result.push(new Ticket(destination, Number(price), status));
     }
 
+    //sorting by key
     return result.sort((a, b) => {
         if (typeof a[sorting] === 'number') {
             return a[sorting] - b[sorting];
