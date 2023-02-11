@@ -84,16 +84,12 @@ function solve() {
                 let currentPrice =  Number(totalPriceElement.textContent)
                 totalPriceElement.textContent = (currentPrice + Number(price)).toFixed(2)
                 tr.remove()
-                hideRow.remove()
-                
+                hideRow.remove() 
 
             })
 
         }
-
     })
-
-
 
 }
 

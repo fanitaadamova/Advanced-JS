@@ -57,6 +57,9 @@ describe('Checking functionality of object', () => {
         it('Valid input - 6', () => {
             assert.equal(library.arrangeTheBooks(6), "Great job, the books are arranged.")
         })
+        it('Valid input - 40', () => {
+            assert.equal(library.arrangeTheBooks(40), "Great job, the books are arranged.")
+        })
 
         it('Valid input - 6', () => {
             assert.equal(library.arrangeTheBooks(45), "Insufficient space, more shelves need to be purchased.")
