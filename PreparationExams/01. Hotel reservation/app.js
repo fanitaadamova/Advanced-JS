@@ -1,5 +1,3 @@
-//64 % judge
-
 window.addEventListener('load', solve);
 function solve() {
     const firstNameElement = document.getElementById('first-name');
@@ -83,19 +81,16 @@ function solve() {
 
         continueButtonElement.addEventListener('click', (e) => {
             //така премествам цялата колекция
-            conformationList.append(editButtonElement.parentElement);
+            ///ВАЖНООООООООООООООООООООООООООООООО
+            conformationList.appendChild(liElement);
 
             editButtonElement.remove()
             continueButtonElement.remove()
 
             let confirmButtonElement = document.createElement("button");
             let cancelButtonElement = document.createElement("button");
-
             liElement.appendChild(confirmButtonElement);
             liElement.appendChild(cancelButtonElement);
-
-            //liElement.appendChild(editButtonElement);
-            //liElement.appendChild(continueButtonElement);
 
             confirmButtonElement.textContent = "Confirm"
             cancelButtonElement.textContent = "Cancel"
