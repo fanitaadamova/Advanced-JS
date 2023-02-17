@@ -31,3 +31,10 @@
     };
 
 })();
+
+const testArray = [1, 2, 3, 4, 5];
+console.log(testArray.last());    // 5
+console.log(testArray.skip(2));   // [ 3, 4, 5 ]
+console.log(testArray.take(2));   // [ 1, 2 ]
+console.log(testArray.sum());     // 15
+console.log(testArray.average()); // 3
