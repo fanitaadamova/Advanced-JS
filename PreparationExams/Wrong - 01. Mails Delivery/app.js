@@ -2,9 +2,7 @@ function solve() {
     let recipientNameElement = document.getElementById("recipientName");
     let titleElement = document.getElementById("title");
     let messageElement = document.getElementById("message");
-
     let listElementParent = document.getElementById("list");
-
     let addButtonelement = document.getElementById("add");
     let resetButtonElement = document.getElementById("reset");
 
